@@ -1,11 +1,11 @@
 import React from "react";
+import Titles from "./Components/Titles";
 
 class App extends React.PureComponent {
-
   render() {
     return (
       <div>
-        <p>Hello!</p>
+        <Titles/>
       </div>
     );
   }
